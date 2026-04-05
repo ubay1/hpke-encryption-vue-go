@@ -2,10 +2,10 @@
 
 ```bash
 cd client && npm install
-cd server && npm install
+cd server && go mod tidy
 ```
 
 ```bash
 cd client && npm run dev
-cd server && npm run start
+cd server && air
 ```
