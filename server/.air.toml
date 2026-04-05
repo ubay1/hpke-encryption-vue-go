@@ -1,0 +1,6 @@
+[build]
+  # Sesuaikan dengan lokasi main.go kamu
+  cmd = "go build -o ./tmp/main ./main.go" 
+  bin = "tmp/main"
+  # Perhatikan ekstensi yang dipantau
+  include_ext = ["go", "tpl", "tmpl", "html", "env"]
